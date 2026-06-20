@@ -10,7 +10,7 @@ The website includes three pages:
 - Cover letter page
 - Career goals page
 
-The project demonstrates basic HTML structure, semantic elements, CSS styling, tables, navigation links, and meida integration.
+The project demonstrates basic HTML structure, semantic elements, CSS styling, tables, navigation links, and media integration.
 
 ## Technologies Used
 
