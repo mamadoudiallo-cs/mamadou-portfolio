@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #1f2933;
+    margin: 0;
+    line-height: 1.6;
+    background-color: #f5f7fa;
+
+}
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+header {
+    max-width: 1100px;
+    margin: 30px auto 30px auto;
+    padding: 0 20px;
+}
+.sectionHeader {
+    color: #2563eb;
+    font-style: italic;
+    font-variant: small-caps;
+}
+.contentBox {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+nav {
+    background-color: #1f2933;
+    padding: 16px 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 600;
+}
+nav a:hover {
+    color: #dbeafe;
+}
+#skills-list {
+    columns: 2;
+}
+#skills-list li {
+    margin-bottom: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+
+}
+th, td {
+    border: 1px solid #d1d5db;
+    padding: 12px;
+    text-align: left;
+
+}
+th { 
+    background-color: #f5f7fa;
+}
+caption {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+span {
+    font-weight: 700;
+    color: #1f2933;
+}
+ul {
+    list-style-type: square;
+}
+#contactMe {
+    padding: 20px;
+}
+.letterContent {
+    max-width: 900px;
+
+}
+.mediaItem {
+    max-width: 100%;
+    width: 700px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin-top: 20px;
+    max-height: 450px;
+    object-fit: cover;
+}
+#currentDate {
+    color: #6b7280;
+    font-size: 0.9rem;
+}
+input,
+textarea,
+select {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+input[type="radio"] {
+    width: auto;
+}
+input[type="submit"] {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+input[type="submit"]:hover {
+    background-color: #1d4ed8;
+}
+@media (max-width: 600px) {
+    #skills-list {
+        columns: 1;
+    }
+
+    .mediaItem {
+        width: 100%;
+        max-height: 300px;
+    }
+}
