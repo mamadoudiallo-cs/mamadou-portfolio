@@ -1,7 +1,6 @@
-# WGU Resume Porfolio website
+# Software Engineering Portfolio Website
 
-This is a personal resume portfolio website created for my Web Development Foundations course at Western Governors University.
-
+This project is a responsive personal portfolio website developed to showcase my software engineering projects, technical skills, education, and career goals. It demonstrates modern HTML, CSS, Git, GitHub, and GitHub Pages workflows while serving as my professional online portfolio.
 ## Project Overview
 
 The website includes three pages:
@@ -19,7 +18,7 @@ The project demonstrates basic HTML structure, semantic elements, CSS styling, t
 - GitHub
 - VS Code
 
-## What i learned 
+## What I learned 
 
 Through this project, I practiced building a multi-page website, organizing files, using semantic HTML, linking external CSS, and structuring content for readability.
 
@@ -28,4 +27,4 @@ Through this project, I practiced building a multi-page website, organizing file
 - Improve responsive design for mobile devices
 - Add stronger visual styling with CSS
 - Improve accessibility
-- Add more porfolio projects over time
+- Add more portfolio projects over time
